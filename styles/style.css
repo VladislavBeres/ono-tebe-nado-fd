@@ -1,14 +1,3 @@
-body {
-  width: 100%;
-  max-width: 1100px;
-  margin: 100px auto;
-  font-family: Raleway, serif;
-  font-weight: 400;
-  background-color: aliceblue;
-}
-.cover {
-  background-color: #ffffff;
-}
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -17,7 +6,6 @@ body {
   min-height: 293px;
   padding-right: 50px;
   padding-left: 50px;
-  background-color: #ffffff;
 }
 
 .header_menu ul {
@@ -55,6 +43,7 @@ body {
   justify-self: end;
   text-align: left;
 }
+
 .address.header__address a {
   color: #000000;
 }
@@ -140,6 +129,7 @@ body {
   cursor: pointer;
   scale: 1.09;
 }
+
 .bet-button:active {
   opacity: 0.3;
   scale: 0.99;
@@ -154,11 +144,14 @@ body {
   opacity: 0.6;
   background-color: #000000;
 }
+
 /* ----------------------------------------------------- */
+
 .lots {
   margin-top: 180px;
   padding: 0 24px;
 }
+
 .lots__heading {
   padding-left: 40px;
   font-family: "Raleway", sans-serif;
@@ -185,7 +178,7 @@ body {
   min-height: 596px;
 }
 
-.card-link{
+.card-link {
   text-decoration: none;
 }
 
@@ -334,10 +327,6 @@ body {
 .footer__menu-link_active a {
   text-decoration: none;
 }
-
-/* .footer__menu-link {
-  color:#000000;
-} */
 
 .footer__social-list {
   display: flex;
