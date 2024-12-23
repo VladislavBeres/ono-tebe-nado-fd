@@ -15,8 +15,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   list-style: circle;
 }
 
@@ -35,8 +33,6 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
 }
 
 .address.header__address {
@@ -60,20 +56,14 @@
 }
 
 .cover_title {
-  padding: 165px 50px 0px;
+  padding: 165px 20px 0 50px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
-  line-height: 130px;
+  line-height: 129px;
   letter-spacing: 0.3em;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   text-transform: uppercase;
-}
-
-.no-letter-spacing {
-  margin-right: -0.3em;
 }
 
 .accent-span {
@@ -102,8 +92,6 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   text-transform: uppercase;
   word-spacing: 20px;
 }
@@ -118,8 +106,6 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 25.83px;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   text-transform: uppercase;
   background-color: transparent;
 }
@@ -148,6 +134,7 @@
 /* ----------------------------------------------------- */
 
 .lots {
+  box-sizing: border-box;
   margin-top: 180px;
   padding: 0 24px;
 }
@@ -158,8 +145,6 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   text-transform: uppercase;
 }
 
@@ -201,8 +186,6 @@
   text-align: left;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   text-transform: uppercase;
 }
 
@@ -223,7 +206,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
-  text-underline-position: from-font;
 }
 
 /* Фоновые изображения */
@@ -271,8 +253,6 @@
   font-size: 40px;
   line-height: 46.96px;
   text-align: left;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
   text-transform: uppercase;
 }
 
@@ -289,8 +269,6 @@
   font-size: 20px;
   line-height: 24px;
   text-align: left;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
 }
 
 .about_text-bottom {
@@ -312,8 +290,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font;
 }
 
 .footer__menu-list {
